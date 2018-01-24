@@ -7,4 +7,4 @@ var path = require('path');
 // var pathname= path.normalize('C:\\Users\\Administrator.WIN-1AHN99057GP');
 // console.log(pathname);
 var p= path.join('fd','g');
-console.log(p); 
+console.log(p);
