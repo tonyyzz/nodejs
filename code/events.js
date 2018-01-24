@@ -35,11 +35,11 @@ var eventArr = eventEmitter.listeners("connection");
 
 console.log(eventArr);
 
-eventArr[0](6,6);
+eventArr[0](6, 6);
 
- var count= eventEmitter.listenerCount("connection");
- console.log("个数",count);
- eventEmitter.on("error",function(){
-     console.log("error");
- });
- eventEmitter.emit('error'); 
+var count = eventEmitter.listenerCount("connection");
+console.log("个数", count);
+eventEmitter.on("error", function () {
+    console.log("error");
+});
+eventEmitter.emit('error'); 
